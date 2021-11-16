@@ -46,3 +46,22 @@ select * from dept_manager LIMIT 100;
 select * from employees LIMIT 100;
 select * from salaries LIMIT 100; 
 select * from titles LIMIT 100;
+
+INSERT INTO departments (dept_no, dept_name)
+VALUES
+  ('d001', 'Marketing'),
+  ('d002', 'Finance'),
+  ('d003', 'Human Resources'),
+  ('d004', 'Production'),
+  ('d005', 'Development'),
+  ('d006', 'Quality Management'),
+  ('d007', 'Sales'),
+  ('d008', 'Research'),
+  ('d009', 'Customer Service'); 
+
+ SELECT * FROM departments;
+ SELECT * FROM dept_emp;
+ SELECT * FROM dept_manager;
+ SELECT * FROM employees; 
+ SELECT * FROM salaries;
+ SELECT * FROM titles; 
